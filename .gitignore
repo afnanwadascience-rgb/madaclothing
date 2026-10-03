@@ -1,0 +1,9 @@
+# Dependencies (this project has none — no node_modules is needed)
+node_modules/
+
+# Local environment / editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

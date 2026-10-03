@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the domain below with your real domain, then commit.
+# Sitemap: https://mada.example.com/sitemap.xml

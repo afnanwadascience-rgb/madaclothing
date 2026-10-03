@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" width="520" height="128" role="img" aria-label="MADA">
+  <!-- MADA wordmark — single source of truth for the logo (used in header + footer). -->
+  <g fill="none" stroke="#111111" stroke-width="18" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2.5">
+    <path d="M22 105 V23 L67 84 L112 23 V105"/>
+    <path d="M156 105 L200 31 L244 105 M174 66 H226"/>
+    <path d="M288 105 V23 H322 C380 23 380 105 322 105 H288 Z"/>
+    <path d="M410 105 L454 31 L498 105 M428 66 H480"/>
+  </g>
+</svg>

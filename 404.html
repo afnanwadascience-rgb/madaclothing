@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Page not found — MADA</title>
+  <meta name="description" content="This page could not be found. Browse the MADA collection or order through Messenger.">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="robots" content="noindex">
+
+  <!-- Paths in this file are root-absolute so the 404 page works from any URL. -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="/favicon.ico" sizes="32x32">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <script src="/js/config.js" defer></script>
+  <script src="/js/products.js" defer></script>
+  <script src="/js/app.js" defer></script>
+</head>
+
+<body data-page="">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html" aria-label="MADA — home">
+        <img class="brand__logo" src="/assets/logo/logo.svg" alt="MADA" width="520" height="128">
+        <span class="brand__tagline" data-config="tagline">GO BEYOND.</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="/index.html" data-nav="home">Home</a>
+        <a href="/shop.html" data-nav="shop">Shop</a>
+        <a href="/about.html" data-nav="about">About</a>
+        <a href="/how-to-order.html" data-nav="how-to-order">How to Order</a>
+        <a href="/faq.html" data-nav="faq">FAQ</a>
+        <a href="/contact.html" data-nav="contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn--dark header-cta" data-messenger href="https://m.me/61594943794307" target="_blank" rel="noopener noreferrer">Order</a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Mobile navigation">
+        <a class="mobile-menu__link" href="/index.html" data-nav="home">Home</a>
+        <a class="mobile-menu__link" href="/shop.html" data-nav="shop">Shop</a>
+        <a class="mobile-menu__link" href="/about.html" data-nav="about">About</a>
+        <a class="mobile-menu__link" href="/how-to-order.html" data-nav="how-to-order">How to Order</a>
+        <a class="mobile-menu__link" href="/faq.html" data-nav="faq">FAQ</a>
+        <a class="mobile-menu__link" href="/contact.html" data-nav="contact">Contact</a>
+      </nav>
+      <a class="btn btn--dark" data-messenger href="https://m.me/61594943794307" target="_blank" rel="noopener noreferrer">ORDER ON MESSENGER</a>
+    </div>
+  </header>
+
+  <main id="main" class="is-404">
+    <div class="container">
+      <p class="error-code" aria-hidden="true">404</p>
+      <h1>Page not found</h1>
+      <p class="lede" style="margin-inline: auto; margin-top: 12px;">
+        The page you are looking for does not exist. Browse the collection instead, or
+        message us on Messenger.
+      </p>
+      <div class="btn-row mt-8" style="justify-content: center; max-width: 480px; margin-inline: auto;">
+        <a class="btn btn--dark" href="/index.html">Go home</a>
+        <a class="btn btn--ghost" href="/shop.html">Shop</a>
+        <a class="btn btn--ghost" data-messenger href="https://m.me/61594943794307" target="_blank" rel="noopener noreferrer">Order on Messenger</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img class="footer-brand__logo" src="/assets/logo/logo.svg" alt="MADA" width="520" height="128">
+          <p class="footer-brand__tagline" data-config="tagline">GO BEYOND.</p>
+          <p class="footer-brand__text">Modern streetwear and T-shirts. Browse the collection and order through Messenger.</p>
+        </div>
+
+        <div class="footer-col">
+          <h2 class="footer-col__title">Shop</h2>
+          <ul id="footer-categories">
+            <li><a href="/shop.html">All products</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2 class="footer-col__title">Company</h2>
+          <ul>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/how-to-order.html">How to Order</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2 class="footer-col__title">Order</h2>
+          <p class="footer-note" data-config="deliveryInfo">Delivery coverage, cost and timing are confirmed with you in Messenger for your area.</p>
+          <p class="mt-6">
+            <a class="btn btn--light btn--sm" data-messenger href="https://m.me/61594943794307" target="_blank" rel="noopener noreferrer">Order on Messenger</a>
+          </p>
+          <p class="mt-6">
+            <a data-facebook hidden>Facebook page</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> <span data-config="brandName">MADA</span> — All rights reserved.</span>
+        <span>Prices in <span data-config="currency">BDT</span> · Orders handled through Messenger</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
