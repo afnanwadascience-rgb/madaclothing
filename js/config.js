@@ -18,7 +18,7 @@ const SITE_CONFIG = {
   tagline: "GO BEYOND.",
 
   /* --- Ordering (every Order button on the site uses this link) ---------- */
-  messengerUrl: "https://m.me/61594943794307",
+  messengerUrl: "https://www.messenger.com/t/1366008693268830",
   orderCtaLabel: "ORDER ON MESSENGER",
   orderHelper:
     "Chat with us to check size, color, availability, delivery, and place your order.",
